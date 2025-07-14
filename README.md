@@ -65,7 +65,5 @@ DiskANN benchmark testing is implemented by function calls of its original repos
 In the paper, we compared ScaleGANN with three other benchmarks: [DiskANN](https://github.com/microsoft/DiskANN/tree/main), [GGNN](https://github.com/cgtuebingen/ggnn/tree/release_0.5), and Naive CAGRA which we implemented based on [CAGRA](https://github.com/rapidsai/raft/tree/branch-24.10).
 ## Build experiments
 We built indexes using all the above four approaches on various datasets: Sift, Deep, SimSearchNet, Microsoft Turing, Laion. Most of the datasets are from [Bigann Benchamrks](https://big-ann-benchmarks.com/neurips21.html). While [Laion](https://laion.ai) is download at [Laion Download](https://the-eye.eu/public/AI/cah/laion5b/embeddings/laion1B-nolang/).
-Build data with details are in folder [experiments](https://github.com/AnonymousAuthor1111/ScaleGANN-SOCC25/tree/main/experiments).
 ## Search experiments
 We record full search results including recall, time and query latency in [search results](https://github.com/AnonymousAuthor1111/ScaleGANN-SOCC25/blob/main/SearchResult.xlsx). 
-For more details, also see in folder [experiments](https://github.com/AnonymousAuthor1111/ScaleGANN-SOCC25/tree/main/experiments).
